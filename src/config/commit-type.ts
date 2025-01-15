@@ -35,7 +35,7 @@ export default function GetCommitTypes() {
             label: 'fix',
             key: 'fix',
             detail: localize('extension.commitType.fix.detail'),
-            icon: '🐞',
+            icon: '🐛',
         },
         {
             label: 'docs',
@@ -47,19 +47,19 @@ export default function GetCommitTypes() {
             label: 'style',
             key: 'style',
             detail: localize('extension.commitType.style.detail'),
-            icon: '🌈',
+            icon: '🎨',
         },
         {
             label: 'refactor',
             key: 'refactor',
             detail: localize('extension.commitType.refactor.detail'),
-            icon: '🦄',
+            icon: '🔨',
         },
         {
             label: 'perf',
             key: 'perf',
             detail: localize('extension.commitType.perf.detail'),
-            icon: '🎈',
+            icon: '🚀',
         },
         {
             label: 'test',
@@ -83,7 +83,7 @@ export default function GetCommitTypes() {
             label: 'chore',
             key: 'chore',
             detail: localize('extension.commitType.chore.detail'),
-            icon: '🐳',
+            icon: '📦️',
         },
         {
             label: 'revert',
